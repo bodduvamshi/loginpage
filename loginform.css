@@ -22,19 +22,17 @@
     font-weight: bold;
     margin-top: 10px;
 }
-.user input {
-    padding: 10px;
-    border: none; /* Remove all borders */
-    border-bottom: 2px solid rgb(0, 66, 128); /* Only keep bottom border */
-    outline: none; /* Remove default focus outline */
-    background: transparent; /* Make background transparent */
+.user input{
+    padding:10px;
+    border:0px;
+    border-bottom:2px solid rgb(0, 36, 128);
+    outline: none;
 }
-
-.user input:focus {
+.user input:focus{
     border-bottom: 2px solid yellow;
-    box-shadow: none; /* Remove extra shadow */
+    box-shadow: 0px 2px 10px 0px rgba(76, 176, 80, 0.8);
+    border: 0px;
 }
-
 .user button{
     margin-top: 30px;
     padding: 10px 20px; /* Adjust padding for better button size */
@@ -55,8 +53,9 @@
     border:0px;
     transform: scale(1.2);
     box-shadow: 
-     0px 5px 10px rgba(7, 14, 233, 0.7),
-     0px -5px 10px rgba(234, 247, 94, 0.7); /* Top (Blue) */
+     0px 5px 10px rgba(7, 14, 233, 0.7);
+     /* Top (Blue) */
       /* Bottom (Yellow) */
+    cursor: pointer;
 
 }
